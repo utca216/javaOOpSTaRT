@@ -8,6 +8,19 @@ public class Main {
         myComputer.brand="Fuji";
         myComputer.displayInfo();
         myComputer.changePassword("abobus", "bobus");
+
+        Computer FeruzComputer = new Computer("MSI", 22, 1024, "sosososos");
+
+        Computer EmirComputer = new Computer();
+        EmirComputer.brand="macBoook";
+        EmirComputer.HDD=10;
+        EmirComputer.RAM=10;
+        EmirComputer.password="12345678";
+
+
+        myComputer.displayInfo();
+        FeruzComputer.displayInfo();
+        EmirComputer.displayInfo();
         }
 
     }

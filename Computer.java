@@ -9,6 +9,13 @@ public class Computer {
         HDD=500;
         password="123";
     }
+
+    public Computer(String brand,int RAM,int HDD,String password){
+        this.brand=brand;
+        this.RAM=RAM;
+        this.HDD=HDD;
+        this.password=password;
+    }
     public void displayInfo(){
         System.out.println("brand "+brand);
         System.out.println("RAM "+RAM);
